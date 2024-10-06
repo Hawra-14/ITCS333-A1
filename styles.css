@@ -36,21 +36,20 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: #e7891e;
+    color: #cc8737;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #f46b1b;
+    color: #f46512;
 }
-
 
 main {
-    padding: 30px;
+    padding: 70px;
 }
 .section {
-    margin-bottom: 40px;
+    margin-bottom:40px;
     text-align: center;
 }
 /* Welcome Section */
@@ -81,7 +80,7 @@ main {
 }
 /* Photo Gallery Section */
 #gallery {
-    background-color: #fbd9a3;
+    background-color: #f9dbab;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -95,6 +94,20 @@ main {
 .gallery-grid img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Parent Resources Section */
+#resources {
+    background-color: #fcddab;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* About Us Section */
+#about {
+    background-color: #fbd496;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
