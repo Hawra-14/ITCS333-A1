@@ -3,18 +3,24 @@ body {
     margin: 0;
     padding: 10;
     background-color: #ffefd5;
-
+    background-image: url("Remove background project 1.png");
+    background-size: 100%;
+    background-repeat: repeat;
 }
-header h1 {
-    color:rgb(128, 101, 26);
+h1 {
+    /*color:rgb(128, 101, 26);*/
+    color: rgb(234, 67, 25);
     text-align: center;
+    opacity: 1;
 }
 h2 {
-    color:rgb(128, 101, 26);
+    /*color:rgb(128, 101, 26);*/
+    color: rgb(235, 83, 44);
     text-align: center;
 }
 p, li {
     color: #333;
+    font-weight: bold;
 }
 header {
     background-color: #f9c969;
@@ -30,7 +36,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
@@ -42,7 +48,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f46512;
+    /*color: #f46512;*/
+    color: rgb(235, 83, 44);
 }
 
 main {
